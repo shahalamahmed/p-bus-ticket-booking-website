@@ -65,7 +65,7 @@ function buyTicket(alpha) {
 
 }
 
-function onClickApplyCoupon() {
+function onClickApplyCouponName() {
     const couponCode1 = "NEW15";
     const couponCode2 = "Couple 20";
     const couponCode = document.getElementById('coupon-code').value;
@@ -100,7 +100,7 @@ numberInput.addEventListener('input', function () {
 
 
 const nextBtn = document.getElementById('next-button');
-const modal = document.getElementById('my_modal_5');
+const modal = document.getElementById('modal-5');
 nextBtn.addEventListener('click', function () {
     modal.showModal();
 });
